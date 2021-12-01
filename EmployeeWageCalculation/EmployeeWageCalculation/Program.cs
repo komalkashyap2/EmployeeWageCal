@@ -13,6 +13,12 @@ namespace EmployeeWageCalculation
             EmployeeWage employee = new EmployeeWage();
             employee.Attendance();
             employee.DailyWage();
+            employee.EmployeePartTime();
+            employee.PartOrFullTIme();
+            employee.CalculateWagesOfMonth();
+            employee.TotalWorkingHours();
+             
+
         }
     }
 }
